@@ -21,6 +21,6 @@ public String getCollege() {
 }
 public void setCollege(String college) {
 	this.college = college;
-}
+} 
 
 }
