@@ -4,7 +4,7 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 import java.sql.Statement;  
- 
+  
 public class InsertOperation {
 public static void main(String[] args) throws ClassNotFoundException, SQLException {
 //step 1)Load the driver
