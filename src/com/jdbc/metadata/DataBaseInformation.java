@@ -6,7 +6,7 @@ import java.sql.SQLException;
 
 import com.jdbc.operationV2.JdbcUtils;
 
-public class DataBaseInformation {
+public class DataBaseInformation { 
 public static void main(String[] args) throws SQLException {
 	Connection connection = JdbcUtils.getMysqlConnection();
 	DatabaseMetaData metaData = connection.getMetaData();
