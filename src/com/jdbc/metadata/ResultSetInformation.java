@@ -14,7 +14,7 @@ getColumnCount
 getColumnDisplaySize
 getColumnLabel
 getColumnName
-getColumnType
+getColumnType 
 getColumnTypeName
  */
 public class ResultSetInformation {
