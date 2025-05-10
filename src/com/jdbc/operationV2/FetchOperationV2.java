@@ -1,28 +1,28 @@
 package com.jdbc.operationV2;
 
 import java.sql.Connection;
-import java.sql.DriverManager;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
- 
-public class FetchOperationV2 {
-	public static void main(String[] args) {
-		// step3. prepare the SQL statement
-		String quary = "select * from student";
-		try (Connection connection = JdbcUtil.getMysqlConnection();
-				Statement statement = connection.createStatement();
-				ResultSet resultSet = statement.executeQuery(quary)) {
 
-			// step6. process the result
-			if (resultSet != null) {
-				while (resultSet.next()) {
-					System.out
-							.println(resultSet.getInt(1) + " " + resultSet.getString(2) + " " + resultSet.getString(3));
+public class FetchOperationV2 {
+public static void main(String[] args) throws ClassNotFoundException, SQLException {
+	//step 1)Load the driver
+	String query = "select * from student";
+	
+	try(Connection connection = JdbcUtils.getMysqlConnection();
+		Statement statement	= connection.createStatement();
+		ResultSet resultSet	= statement.executeQuery(query);
+			) {
+		// step6. process the result
+					if (resultSet != null) {
+						while (resultSet.next()) {
+							System.out
+									.println(resultSet.getInt(1) + " " + resultSet.getString(2) + " " + resultSet.getString(3));
+						}
+					}
+				} catch (SQLException e) {
+					e.printStackTrace();
 				}
-			}
-		} catch (SQLException e) {
-			e.printStackTrace();
-		}
-	}
+}
 }

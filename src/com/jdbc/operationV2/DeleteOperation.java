@@ -3,25 +3,27 @@ package com.jdbc.operationV2;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
-import java.sql.Statement; 
+import java.sql.Statement;
 
 public class DeleteOperation {
-	public static void main(String[] args) throws ClassNotFoundException, SQLException {
-				Connection connection = JdbcUtil.getMysqlConnection();
-		// step3. prepare the SQL statement
-				String quary = "delete from student where roll_number=10";
-		// step4. create the JDBC statement using connection
-				Statement statement = connection.createStatement();
-		// step5. submit the SQL statement using JDBC statement
-				int record = statement.executeUpdate(quary);
-		// step6. process the result
-				if (record == 1) {
-					System.out.println("record deleted");
-				} else {
-					System.out.println("record not deleted");
-				}
-		// step7. close the resources
-				JdbcUtil.closeResource(statement, connection);
-			
+public static void main(String[] args) throws ClassNotFoundException, SQLException {
+	//step 1)Load the driver
+
+	//step 2)Establish a connection between Jdbc program and Database
+	Connection connection = JdbcUtils.getMysqlConnection();
+	//step 3)Prepare the SQL statement
+		String query="delete from student where roll_number=10";
+	//step 4)Create the Jdbc statement using Connection
+		Statement statement = connection.createStatement();
+	//step 5)Submit the SQL statement to Database using Jdbc statement
+		int record = statement.executeUpdate(query);
+	//step 6)Process the result
+		if(record==1) {
+			System.out.println("record deleted");
+		}else {
+			System.out.println("record not deleted");
+		}
+	//step 7)Close the resources
+		JdbcUtils.closeResource(statement, connection);
 }
 }
