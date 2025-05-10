@@ -1,4 +1,4 @@
-package com.jdbc.operation.v2;
+package com.jdbc.operationV2;
 
 import java.sql.Connection;
 import java.sql.DriverManager;

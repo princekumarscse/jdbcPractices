@@ -7,7 +7,7 @@ import java.sql.Statement;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.jdbc.operation.v2.JdbcUtil;
+import com.jdbc.operationV2.JdbcUtil;
 
 import comjdbcpractice.Student;
 
