@@ -9,7 +9,7 @@ import java.sql.Statement;
 
 import com.jdbc.entity.Student;
 import com.jdbc.operationV2.JdbcUtils;
-
+ 
 public class JdbcOperation {
 //Inserting data using prepareStatement	
 	public static void insert(Student stu) {
