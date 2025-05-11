@@ -9,7 +9,7 @@ import java.sql.Statement;
 
 import com.jdbc.operationV2.JdbcUtils;
 
-public class insertOperation {
+public class insertOperation { 
 public static void main(String[] args) throws SQLException {
 	//step 1)Load the driver
 		//this will be automaticaly called at the time of class load
