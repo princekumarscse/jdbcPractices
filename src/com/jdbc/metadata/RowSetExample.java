@@ -8,7 +8,7 @@ import java.sql.Statement;
 import javax.sql.rowset.JdbcRowSet;
 import javax.sql.rowset.RowSetProvider;
 
-//Serealization we'll discuss later
+//Serealization we'll discuss later 
 
 //rowset is advance version of result set to fetch data with scrollable(backward)+updatable feature
 public class RowSetExample {
