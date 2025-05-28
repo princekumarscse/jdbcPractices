@@ -9,7 +9,7 @@ import java.sql.Statement;
 public class FetchOperation {
 public static void main(String[] args) throws ClassNotFoundException, SQLException {
 	//step 1)Load the driver
-		
+		 
 	Connection connection = null;
 	Statement statement = null;
 	ResultSet resultSet = null;
