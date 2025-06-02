@@ -7,7 +7,7 @@ import java.sql.ResultSetMetaData;
 import java.sql.SQLException;
 import java.sql.Statement;
   
-import com.jdbc.operationV2.JdbcUtils;
+import com.jdbc.operationV2.JdbcUtils; 
 
 public class insertOperation { 
 public static void main(String[] args) throws SQLException {
