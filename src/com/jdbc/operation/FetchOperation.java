@@ -8,7 +8,7 @@ import java.sql.Statement;
 
 public class FetchOperation {
 public static void main(String[] args) throws ClassNotFoundException, SQLException {
-	//step 1)Load the driver
+	//step 1)Load the driver 
 		Class.forName("com.mysql.cj.jdbc.Driver");
 	//step 2)Establish a connection between Jdbc program and Database
 		String url="jdbc:mysql://localhost:3306/test";
