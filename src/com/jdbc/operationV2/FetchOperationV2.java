@@ -7,7 +7,7 @@ import java.sql.Statement;
  
 public class FetchOperationV2 {
 public static void main(String[] args) throws ClassNotFoundException, SQLException {
-	//step 1)Load the driver
+	//step 1)Load the driver 
 	String query = "select * from student";
 	
 	try(Connection connection = JdbcUtils.getMysqlConnection();
