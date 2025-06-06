@@ -2,7 +2,7 @@ package com.jdbc.operationV2;
 
 import java.sql.Connection;
 import java.sql.SQLException;
-import java.sql.Statement;
+import java.sql.Statement; 
   
 public class DeleteOperationV2 {
 public static void main(String[] args) throws SQLException {
