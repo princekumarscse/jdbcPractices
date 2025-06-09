@@ -1,7 +1,7 @@
 package com.jdbc.statement.types;
 
 import com.jdbc.entity.Student;
- 
+  
 //1.Statement 
 //2.PreparedStatement(Interface)
 //3.CallableStatement(Will discuss after store procedure in mysql)
