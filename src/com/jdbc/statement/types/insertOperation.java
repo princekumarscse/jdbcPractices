@@ -15,7 +15,7 @@ public static void main(String[] args) throws SQLException {
 		//this will be automaticaly called at the time of class load
 	//step 2)Establish a connection between Jdbc program and Database
 	Connection connection = JdbcUtils.getMysqlConnection();
-	//step 3)Prepare the SQL statement
+	//step 3)Prepare the SQL statement 
 		String query="insert into student values (14,'Twinkle','SIRT')";
 	//step 4)Create the Jdbc statement using Connection
 		PreparedStatement statement = connection.prepareStatement(query);
