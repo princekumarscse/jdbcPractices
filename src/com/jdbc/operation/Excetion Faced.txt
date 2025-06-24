@@ -1,6 +1,6 @@
 java.lang.ClassNotFoundException: com.mysql.jdbc.Driver
 solution) Added mising jar(mysql connector)
-
+  
 java.sql.SQLException: ResultSet is not updatable
     at java.sql.rowset/com.sun.rowset.JdbcRowSetImpl.checkTypeConcurrency(JdbcRowSetImpl.java:4139)
 sol)Ensure the table has a PRIMARY KEY     
