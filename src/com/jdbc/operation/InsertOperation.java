@@ -9,7 +9,7 @@ public class InsertOperation {
 public static void main(String[] args) throws ClassNotFoundException, SQLException {
 //step 1)Load the driver 
 	Class.forName("com.mysql.cj.jdbc.Driver");
-//step 2)Stablish a connection between Jdbc program and Database
+//step 2)Stablish a connection between Jdbc program and Database 
 	String url="jdbc:mysql://localhost:3306/test";
 	Connection connection=DriverManager.getConnection(url,"root","khushi1404");
 //step 3)Prepare the SQL statement
