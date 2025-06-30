@@ -1,4 +1,4 @@
-package com.jdbc.entity;
+package com.jdbc.entity; 
 
 public class Student {  
 private int rollNumber;
