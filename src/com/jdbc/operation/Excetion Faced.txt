@@ -9,6 +9,6 @@ How to add external jar in eclipse?
 step1)Rigth click on project
 step2)Click build path
 step3)CLick on configuration
-step4)Click on add external jar
+step4)Click on add external jar 
 step5)Select jar location
 step6)Click on apply and close
