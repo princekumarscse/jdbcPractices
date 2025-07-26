@@ -3,7 +3,7 @@ package com.jdbc.entity;
 public class Student {  
 private int rollNumber; 
 private String name;   
-private String college;
+private String college;  
 public int getRollNumber() {
 	return rollNumber; 
 }
