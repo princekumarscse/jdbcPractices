@@ -9,7 +9,7 @@ public int getRollNumber() {
 } 
 public void setRollNumber(int rollNumber) {
 	this.rollNumber = rollNumber;
-}
+} 
 public String getName() {
 	return name;
 }
