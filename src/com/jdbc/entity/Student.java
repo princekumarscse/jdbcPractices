@@ -5,7 +5,7 @@ private int rollNumber;
 private String name;   
 private String college;   
 public int getRollNumber() {  
-	return rollNumber;  
+	return rollNumber;   
 }  
 public void setRollNumber(int rollNumber) {
 	this.rollNumber = rollNumber;
