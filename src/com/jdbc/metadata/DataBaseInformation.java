@@ -11,7 +11,7 @@ public static void main(String[] args) throws SQLException {
 	Connection connection = JdbcUtils.getMysqlConnection();
 	DatabaseMetaData metaData = connection.getMetaData();
 	System.out.println(metaData.getDriverName());
-	System.out.println(metaData.getURL());
+	System.out.println(metaData.getURL()); 
 	System.out.println(metaData.getUserName());
 }
 }
