@@ -13,7 +13,7 @@ getColumnClassName
 getColumnCount
 getColumnDisplaySize
 getColumnLabel
-getColumnName
+getColumnName 
 getColumnType  
 getColumnTypeName
  */
