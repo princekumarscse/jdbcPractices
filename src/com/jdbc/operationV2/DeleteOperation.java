@@ -11,7 +11,7 @@ public static void main(String[] args) throws ClassNotFoundException, SQLExcepti
 
 	//step 2)Establish a connection between Jdbc program and Database
 	Connection connection = JdbcUtils.getMysqlConnection();
-	//step 3)Prepare the SQL statement
+	//step 3)Prepare the SQL statement 
 		String query="delete from student where roll_number=10";
 	//step 4)Create the Jdbc statement using Connection
 		Statement statement = connection.createStatement();
